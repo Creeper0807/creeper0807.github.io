@@ -1,35 +1,60 @@
 <html>
 <head>
-    <title></title>
-    <style>
-        body {
-            background-color: darkolivegreen;
-            text-decoration-color: #05182a;
-        }
-        header {
-            background-color: #8FBC8F;
-        }            
-        p {
-            color: #003636;
-        }
-    </style>
+    <title>Portfolio di Gabriele</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stile_sito.css">
+
 </head>
 <body>
     <header>
-        <h1> <br> Sito di Gabriele Antonio Caivano <br> </h1>
+        <h1>Portfolio di Gabriele Antonio Caivano </h1>   
     </header>
     <main>
-        <p>
+        <h2 class="marginecarino">Presentazione</h2>
+        <p class="marginecarino">
             Ciao!<br>
-            Questo sito è di Gabriele Antonio Caivano. <br> Ho creato questa nella materia di T.P.S.I.T pagina dove descrivo, i miei progetti e verrà aggiornato gradualmente. <br> Quindi adesso questa pagina contiene poche informazioni.  
+            Questo è il portfolio di Gabriele Antonio Caivano. <br>
+            Attualmente sono uno studente, frequento il quarto anno dell I.I.S. Einstein - De Lorenzo nella sede di Picerno.
+            Questa idea del portfolio è iniziata con la materia di T.P.S.I.T. <br>
+            La pagina verrà aggiornata con nuovi contenuti, quindi se vuoi rimanere aggiornato per adesso ti consiglio di visitare ogni tanto la pagina.
+
         </p>
-        <h2>Progetti</h2>
-        <p>
-            Attualmente come proggetto che sto sviluppando pixelparkour. il gioco è in fase di sviluppo
+        <h2 class="marginecarino">Pixel Parkour</h2>
+        <p class="marginecarino">
+            Attualmente il progetto che sto sviluppando è Pixel Parkour.<br>
+            Pixel Parkour è un gioco 2D, strutturato in 5 livelli, ma sono in sviluppo altri livelli.<br>
+            Il gioco si può <a href="https://www.pixelparkour.com/come-vuoi-giocare" target="blank">scaricare</a> o <a href="https://gd.games/pixel_games/pixel-parkour" target="blank">provare online</a> dal sito di Pixel Parkour, per adesso non è presente in nessuno store.<br>
+            Ecco qui alcune immagini del gioco che ho messo in un carosello.
+
         </p>
+        <!-- carrosello simpatico di pixelparkour che non so come ridurre quelle immagini -->
+        <div id="Carosello_Pixel_parkour" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Pixelparkour\home.png" class="d-block w-100" alt="Schermata home" title="Shermata Home">
+            </div>
+            <div class="carousel-item">
+              <img src="Pixelparkour\selezione_livello.png" class="d-block w-100" alt="Selezione Livello" title="Selezione Livello">
+            </div>
+            <div class="carousel-item">
+              <img src="Pixelparkour\livello1.png" class="d-block w-100" alt="Livello 1 del gioco" title="Livello 1 del gioco">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#Carosello_Pixel_parkour" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#Carosello_Pixel_parkour" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
     </main>
     <footer>
-        <p>© Gabriele Antonio Caivano</p>
+        <p>Gabriele Antonio Caivano</p>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
     </footer>
 </body>
 </html>

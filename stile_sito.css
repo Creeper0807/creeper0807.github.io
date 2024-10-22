@@ -1,0 +1,17 @@
+body {
+    background-color: #3C1518;
+    color: #FFCF99;
+}
+header {
+    background-color: #0B2027;
+    margin: 15px;
+}
+p {
+    color: #FFF8F0;
+}
+footer {
+    background-color: #0B2027;
+}
+.marginecarino{
+    margin: 20px;
+}
