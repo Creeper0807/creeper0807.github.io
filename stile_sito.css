@@ -3,6 +3,7 @@ body {
     color: #FFCF99;
 }
 header {
+    text-align: center;
     background-color: #0B2027;
     padding: 15px;
 }
@@ -11,7 +12,12 @@ p {
 }
 footer {
     background-color: #0B2027;
+    padding: 10px;
 }
-.marginecarino{
+main {
     margin: 20px;
+}
+.carosello_simpatico {
+    width: 50%;
+    height: auto;
 }
